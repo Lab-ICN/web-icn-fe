@@ -13,7 +13,7 @@ const Navbar = () => {
         <a href="" className="my-auto">Tri Dharma Perguruan Tinggi</a>
         <a href="" className="my-auto">Kegiatan Lab</a>
         <a href="" className="my-auto">Layanan</a>
-        <Button text="Narahubung" variant="blue" classname="px-5 py-3" />
+        <Button text="Narahubung" variant="blue" classname="px-5 py-3 rounded" />
       </div>
     </nav>
   );

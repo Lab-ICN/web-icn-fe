@@ -8,7 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: { "primary-blue": "#1090CB" },
+      colors: { "primary-blue": "#1090CB", "secondary-blue": "#1090CB" },
+      fontSize: {
+        heading1: "40px",
+      },
     },
   },
   plugins: [],
