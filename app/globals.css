@@ -6,4 +6,7 @@
   h1 {
     @apply text-heading1;
   }
+  h2 {
+    @apply text-heading2;
+  }
 }

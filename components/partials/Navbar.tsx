@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="flex items-center h-[12vh]">
       <div className="w-3/12">
-        <Image src="/logo.png" alt="ICN" width={64} height={64} className="ml-16" />
+        <Image src="/logo.svg" alt="ICN" width={64} height={64} className="ml-16" />
       </div>
       <div className="flex w-9/12 gap-20">
         <a href="" className="my-auto">Beranda</a>
