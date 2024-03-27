@@ -3,7 +3,7 @@ import jumbotronBg from "@/assets/image/jumbotron-bg.png"
 import { Button } from "@/components/button/Button";
 export const Jumbotron = () => {
   return (
-    <section id="jumbotron">
+    <section id="jumbotron" className="z-10">
       <div className="relative">
         <Image src={jumbotronBg} alt="" className="w-full h-6/6 " />
         <div className="w-full h-[102vh] bg-secondary-blue opacity-30 absolute top-0" />

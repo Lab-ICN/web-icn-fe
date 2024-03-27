@@ -4,7 +4,7 @@ import { ReactNode } from "react";
 const MainLayout = ({ children }: { children: ReactNode }) => {
   return (
     <>
-      <header>
+      <header className="sticky top-0 z-10">
         <Navbar />
       </header>
       <main>

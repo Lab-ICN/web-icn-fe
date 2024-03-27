@@ -3,7 +3,7 @@ import { Button } from "../button/Button";
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center h-[12vh]">
+    <nav className="flex items-center h-[12vh] bg-white">
       <div className="w-3/12">
         <Image src="/logo.svg" alt="ICN" width={64} height={64} className="ml-16" />
       </div>
