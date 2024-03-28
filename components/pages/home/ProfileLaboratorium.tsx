@@ -1,9 +1,12 @@
 import { Button } from "@/components/button/Button";
 import Image from "next/image";
-import profilBg from "@/assets/image/profil-bg.svg"
+import profilBg from "@/assets/image/home/profil-bg.svg"
+
+
 
 export const ProfileLaboratorium = () => {
   return (
+
     <section id="profil" className="flex justify-center">
       <div className="flex gap-20 justify-center items-center w-10/12">
         <Image src={profilBg} alt="Profil" className="w-6/12" />

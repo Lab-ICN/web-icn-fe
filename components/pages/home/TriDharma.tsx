@@ -1,26 +1,8 @@
 import { TriDharmaCard } from "@/components/card/TriDharmaCard";
-import pendidikanPict from "@/assets/image/pendidikan-pict.jpg"
-import penelitianPict from "@/assets/image/penelitian-pict.jpeg"
-import pengabdianPict from "@/assets/image/pengabian-pict.jpeg"
+import { triDharmaData } from "@/data/home";
 
 export const TriDharma = () => {
-  const triDharmaData = [
-    {
-      id: 1,
-      title: "Pendidikan dan Pengajaran",
-      image: pendidikanPict
-    },
-    {
-      id: 2,
-      title: "Penelitian dan Pengembangan",
-      image: penelitianPict
-    },
-    {
-      id: 3,
-      title: "Pengabdian Kepada Masyarakat",
-      image: pengabdianPict
-    }
-  ]
+
   return (
     <section id="tri-dharma">
       <div className="w-11/12 h-[80vh] bg-primary-blue rounded-tr-4xl ">

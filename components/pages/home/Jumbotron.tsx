@@ -1,5 +1,5 @@
 import Image from "next/image";
-import jumbotronBg from "@/assets/image/jumbotron-bg.png"
+import jumbotronBg from "@/assets/image/home/jumbotron-bg.png"
 import { Button } from "@/components/button/Button";
 export const Jumbotron = () => {
   return (
